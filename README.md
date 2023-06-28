@@ -1,4 +1,4 @@
-# Taxi1500: Taxi1500: A Multilingual Dataset for Text Classification in 1500 Languages
+# Taxi1500: A Multilingual Dataset for Text Classification in 1500 Languages
 
 
 ## Introduction
