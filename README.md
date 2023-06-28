@@ -9,28 +9,31 @@ The Taxi500 is a dataset for the evaluation of the cross-lingual generalization 
 For a full description of the dataset, see the [paper](https://arxiv.org/abs/2305.08487).
 
 ## Task and languages.
-
-- Taxi1500 is a multilingual evaluation dataset contains one classification task with 6 topics in 1502 languages.
 - Taxi500 is developed based on the [PBC](https://aclanthology.org/L14-1215/) and [1000Langs](https://github.com/ehsanasgari/1000Langs).
-- Taxi1500 covers 1502 languages, we release 670 languages in 1430 editions at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use codes we provide to obtain the evaluation data.
+- Taxi1500 is a multilingual evaluation dataset contains one classification task with 6 topics in 1502 languages. The 6 topics are: 
+
+| topic | definition | 
+|----------|----------|
+| Recommendation  | An imperative statement which suggests to act or believe in certain ways.  | 
+| Faith   | Display of belief and love toward God, instructions on how to maintain faith, stories of faith and its consequences, etc. |
+| Description | Describes a person, relationship, phenomenon, situation, etc.   | 
+| Sin | Describes what is considered sin, stories of sinful people and sinful actions. |
+| Grace | God’s love, blessing, and kindness towards humans. | 
+| Violence | Describes wars, conflict, threats, and torture; but also destructions of people, cities, and nations. |
+
+## Access to the data
+Taxi1500 covers 1502 languages, we release 670 languages in 1430 editions at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use codes we provide to obtain the evaluation data.
 
 
 ## Data structure
 
-Below shows the structure of data in each languages, we present English data as example.
+Below shows the structure of data in each languages, we present the English data as example.
 
-||  id    | label | verse |
-55002024 | Recommendation | For a slave of the Lord does not need to fight , but needs to be gentle toward all , qualified to teach , showing restraint when wronged , |
-51002005 | Faith | Though I am absent in body , I am with you in spirit , rejoicing to see your good order and the firmness of your faith in Christ .
-60003012 | Sin	For the eyes of Jehovah are on the righteous , and his ears listen to their supplication , but the face of Jehovah is against those doing bad things . ” |
-45001027 | Sin | likewise also the males left the natural use of the female and became violently inflamed in their lust toward one another , males with males , working what is obscene and receiving in themselves the full penalty , which was due for their error .|
-
-## Tasks and languages
-
-
-## Access to the data
-
-Taxi1500 covers 1502 languages, we release 670 languages in 1430 editions at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact and use codes under this project to obtain the evaluation data.
+| id | label | verse |
+|----------|----------|----------|
+| 55002024   | Recommendation | For a slave of the Lord does not need to fight , but needs to be gentle toward all , qualified to teach , showing restraint when wronged ,   |
+| 51002005 | Faith  | Though I am absent in body , I am with you in spirit , rejoicing to see your good order and the firmness of your faith in Christ . |
+| 60003012 | Sin | For the eyes of Jehovah are on the righteous , and his ears listen to their supplication , but the face of Jehovah is against those doing bad things . ”|
 
 
 
