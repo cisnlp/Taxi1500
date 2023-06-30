@@ -2,15 +2,15 @@
 
 
 ## Introduction
-This repository contains information about Taxi1500, data and code.
+This repository contains information about Taxi1500 dataset and code for evaluation and processing.
 
-The Taxi500 is a dataset for the evaluation of the cross-lingual generalization ability of pre-trained multilingual models. It covers 1502 typologically diverse languages (spanning 112 language families) and includes one sentence classification task with 6 topics.
+Taxi500 is a dataset for evaluating the cross-lingual generalization ability of multilingual pre-trained language models. It contains a sentence classification task with 6 topics and covers 1502 typologically diverse languages spanning 112 language families.
 
-For a full description of the dataset, see the [paper](https://arxiv.org/abs/2305.08487).
+For a full description of the dataset, please refer to our [paper](https://arxiv.org/abs/2305.08487).
 
-## Task and languages.
-- Taxi500 is developed based on the [PBC](https://aclanthology.org/L14-1215/) and [1000Langs](https://github.com/ehsanasgari/1000Langs).
-- Taxi1500 is a multilingual evaluation dataset contains one classification task with 6 topics in 1502 languages. The 6 topics are: 
+## Dataset
+- Taxi500 is developed based on the [PBC](https://aclanthology.org/L14-1215/) and [1000Langs](https://github.com/ehsanasgari/1000Langs) corpora.
+- Taxi1500 proposes a sentence classification task with 6 topics in 1502 languages. The 6 topics are: 
 
 | topic | definition | 
 |----------|----------|
@@ -22,12 +22,12 @@ For a full description of the dataset, see the [paper](https://arxiv.org/abs/230
 | Violence | Describes wars, conflict, threats, and torture; but also destructions of people, cities, and nations. |
 
 ## Access to the data
-Taxi1500 covers 1502 languages, we release 670 languages in 1430 editions at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use codes we provide to obtain the evaluation data.
+Taxi1500 covers 1502 languages, we release 1430 editions in 670 languages at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use the code we provide to obtain the evaluation data.
 
 
 ## Data structure
 
-Below shows the structure of data in each languages, we present the English data as example.
+The table below shows the structure of the dataset in each language. We present examples from the English dataset.
 
 | id | label | verse |
 |----------|----------|----------|
