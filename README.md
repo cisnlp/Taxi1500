@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This repository contains information about Taxi1500 dataset and code for evaluation and processing.
+This  repository contains information about Taxi1500 dataset and code for evaluation and processing.
 
 Taxi500 is a dataset for evaluating the cross-lingual generalization ability of multilingual pre-trained language models. It contains a sentence classification task with 6 topics and covers 1502 typologically diverse languages spanning 112 language families.
 
