@@ -22,7 +22,7 @@ For a full description of the dataset, please refer to our [paper](https://arxiv
 | Violence | Describes wars, conflict, threats, and torture; but also destructions of people, cities, and nations. |
 
 ## Access to the data
-Taxi1500 covers 1502 languages, we release 1430 editions in 670 languages at the time of publishing, the data can be accessed through the [form](https://docs.google.com/forms/d/1lXrUQl_acQRE4VnZ7uEUpgNHnpG50wSXzQnCO_SM02A/edit?pli=1). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use the code we provide to obtain the evaluation data.
+Taxi1500 covers 1502 languages, we release 1430 editions in 670 languages at the time of publishing, the data can be accessed through the [link](). For the rest copyrighted 832 languages the users can contact thomas.mayer@uni-marburg.de and use the code we provide to obtain the evaluation data.
 
 
 ## Data structure
