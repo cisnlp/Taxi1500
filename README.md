@@ -2,15 +2,15 @@
 
 
 ## Introduction
-This  repository contains information about the Taxi1500 dataset and code for evaluation and processing.
+This repository contains the publicly available portion of the Taxi1500 dataset, scripts for processing the data, and evaluation code.
 
-Taxi1500 is a dataset for evaluating the cross-lingual generalization ability of multilingual pre-trained language models. It contains a sentence classification task with 6 topics and covers 1502 typologically diverse languages spanning 112 language families.
+Taxi1500 is a dataset for evaluating the cross-lingual generalization ability of multilingual pre-trained language models. It introduces a sentence classification task with 6 topics and covers 1502 typologically diverse languages spanning 112 language families.
 
 For a full description of the dataset, please refer to our [paper](https://arxiv.org/abs/2305.08487).
 
 ## Dataset
 - Taxi1500 is developed based on the [PBC](https://aclanthology.org/L14-1215/) and [1000Langs](https://github.com/ehsanasgari/1000Langs) corpora.
-- Taxi1500 proposes a sentence classification task with 6 topics in 1502 languages. The 6 topics are: 
+- An overview of the topics is provided as follows with a description for each topic.
 
 | topic | definition | 
 |----------|----------|
@@ -21,12 +21,14 @@ For a full description of the dataset, please refer to our [paper](https://arxiv
 | Grace | God’s love, blessing, and kindness towards humans. | 
 | Violence | Describes wars, conflict, threats, destruction of people, cities, nations etc. |
 
-## Access to the data
-Taxi1500 covers 1502 languages. We release 1430 editions in 670 languages at the time of publication. The data can be accessed [here](). Please contact Michael Cysouw, Philipps University of Marburg, to request access to the Parallel Bible Corpus (for academic use only).
+## Data access and structure
+While Taxi1500 covers (... editions in) 1502 languages in total, we release 1871 editions in 823 languages which are either open access or have a license permitting distribution at the time of publication.
+Due to copyright restrictions, these are released as a corpus instead of the actual dataset, and can be converted into the dataset format shown below using the included processing code.
 
-## Data structure
+Please refer to [Taxi1500-c_v1.0](Taxi1500-c_v1.0/) and [Taxi1500-c_v2.0](Taxi1500-c_v2.0/) for the corpora.
+Please contact Michael Cysouw, Philipps University of Marburg, to request access to the Parallel Bible Corpus (for academic use only).
 
-The table below shows the structure of the dataset in each language. We present examples from the English dataset.
+The table below shows the structure of the dataset for all languages. The examples shown are from the English dataset.
 
 | id | label | verse |
 |----------|----------|----------|
