@@ -22,7 +22,7 @@ For a full description of the dataset, please refer to our [paper](https://arxiv
 | Violence | Describes wars, conflict, threats, destruction of people, cities, nations etc. |
 
 ## Data access and structure
-While Taxi1500 covers (... editions in) 1502 languages in total, we release 1871 editions in 823 languages which are either open access or have a license permitting distribution at the time of publication.
+While Taxi1500 covers 1502 languages in total, we release 1871 editions in 823 languages which are either open access or have a license permitting distribution at the time of publication.
 Due to copyright restrictions, these are released as a corpus instead of the actual dataset, and can be converted into the dataset format shown below using the included processing code.
 
 Please refer to [Taxi1500-c_v1.0](Taxi1500-c_v1.0/) and [Taxi1500-c_v2.0](Taxi1500-c_v2.0/) for the corpora.
