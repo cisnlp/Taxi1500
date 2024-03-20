@@ -7,8 +7,8 @@ import numpy as np
 import random
 import csv
 
-path='/mounts/Users/student/yehao/public_html/data/Taxi1500-c_v2.0'
-labeled_data='mturk_labeled_data.tsv'
+path=''
+labeled_data=''
 
 #transfer english labeled data to other languages
 eng_dict = {}
